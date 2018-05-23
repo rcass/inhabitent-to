@@ -20,10 +20,13 @@
 	<div class="entry-content">
 		<?php the_content(); ?>
 
+    <!-- custom field suite -->
+    <p><?php echo CFS()->get( 'price' ); ?></p>
+
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-  
+
     <!-- Social Media Buttons -->
 
 	</footer><!-- .entry-footer -->

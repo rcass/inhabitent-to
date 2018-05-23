@@ -53,3 +53,20 @@ function inhabitent_login_logo_title(){
 	return 'Inhabitent';
 }
 add_filter('login_headertitle', 'inhabitent_login_logo_title');
+
+
+/**
+ * Make hero image customizable through CFS field
+ */
+//Make a function that does the things below:
+function some_name_here_please(){
+			// 1. check if we are using the about template ( is_page_template )
+
+
+			// 2. get image url from custom field suite (see CFS docs)
+
+
+			// 3. Add custom css, that uses that image url for a background image (wp_add_inline_style)
+}
+
+ // Call this above function (wp_enqueue_scripts)
